@@ -1,0 +1,4 @@
+"file:/home/ubuntu/wdc/2021-s1-wdc-prac2/validatethis1.html":1.1-3.16: error: Start tag seen without seeing a doctype first. Expected “<!DOCTYPE html>”.
+"file:/home/ubuntu/wdc/2021-s1-wdc-prac2/validate.css":1.1-6.1: error: Non-space characters found without seeing a doctype first. Expected “<!DOCTYPE html>”.
+"file:/home/ubuntu/wdc/2021-s1-wdc-prac2/validate.css":1.1-6.1: error: Element “head” is missing a required instance of child element “title”.
+"file:/home/ubuntu/wdc/2021-s1-wdc-prac2/validate.css":1.1-6.1: info warning: Consider adding a “lang” attribute to the “html” start tag to declare the language of this document.
