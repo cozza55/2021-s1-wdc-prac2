@@ -1,101 +1,135 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
  @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
  p {
-     font-family: "Noto Serif", sans-serif;
+  font-family: "Noto Serif", sans-serif;
  }
 
  h1 {
-     font-family: "Raleway", sans-serif, sans-serif;
+  font-family: "Raleway", sans-serif, sans-serif;
  }
 
  h2 {
-     font-family: "Raleway", sans-serif, sans-serif;
+  font-family: "Raleway", sans-serif, sans-serif;
  }
 
  h4 {
-     font-family: "Raleway", sans-serif, sans-serif;
-     text-align: left;
-     font-style: italic;
-     text-decoration: underline;
-     font-weight: normal;
+  font-family: "Raleway", sans-serif, sans-serif;
+  text-align: left;
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: normal;
  }
 
  a {
-     color: darkgreen;
+  color: darkgreen;
  }
 
  del {
-     color: grey;
+  color: grey;
  }
 
  mark {
-     color: darkblue;
-     background-color: pink;
+  color: darkblue;
+  background-color: pink;
  }
 
  pre {
-     font-family: monospace;
+  font-family: monospace;
  }
 
  h3 {
-     color: rgba(0, 0, 139, 0.8);
+  color: rgba(0, 0, 139, 0.8);
  }
 
  .transparent-text {
-     color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
  }
 
  body {
-     background-image: url(cross.png);
-     background-color: #DCF5F5;
-     background-repeat: repeat;
-     background-position: top;
-     font-family: "Noto Serif", sans-serif;
-     display: inline-block;
+  background-image: url(cross.png);
+  background-color: #DCF5F5;
+  background-repeat: repeat;
+  background-position: top;
+  font-family: "Noto Serif", sans-serif;
+  display: inline-block;
  }
 
  #content {
-     background-color: white;
-     border-style: solid;
-     border-radius: 8px;
-     border-width: 1px;
-     border-color: darkgrey;
+  background-color: white;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: darkgrey;
  }
 
  .blue {
-     color: blue;
+  color: blue;
  }
 
  .fancy {
-     font-family: cursive;
+  font-family: cursive;
  }
 
  .red-border {
-     border-style: solid;
-     border-width: 1px;
-     border-color: red;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
  }
 
  hr {
-     border-style: solid;
-     border-color: #CFDFE4;
+  border-style: solid;
+  border-color: #CFDFE4;
  }
 
  .red-outline {
-     outline-style: solid;
-     outline-width: 1px;
-     outline-color: red;
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: red;
  }
 
  blockquote {
-     color: dimgrey;
-     font-family: "Raleway", sans-serif, sans-serif;
-     line-height: 1.5;
-     word-spacing: 0.2em;
-     text-align: justify;
+  color: dimgrey;
+  font-family: "Raleway", sans-serif, sans-serif;
+  line-height: 1.5;
+  word-spacing: 0.2em;
+  text-align: justify;
  }
 
  i {
-     color: #BFCFD4;
+  color: #BFCFD4;
+ }
+
+ .nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkgrey;
+ }
+
+ .navitem {
+  float: left;
+ }
+
+ .navitemlink {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ }
+
+ li a:hover {
+  background-color: white;
+  color: darkgrey;
+  text-shadow: 1px 1px lightgrey;
+ }
+
+ .square {
+  list-style-type: square;
+ }
+
+ .lowerroman {
+  list-style-type: lower-roman;
  }
  
