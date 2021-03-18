@@ -1,78 +1,101 @@
-        p {
-            font-family: Serif;
-        }
+ @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+ p {
+     font-family: "Noto Serif", sans-serif;
+ }
 
-        h1 {
-            font-family: sans-serif;
-        }
+ h1 {
+     font-family: "Raleway", sans-serif, sans-serif;
+ }
 
-        h4 {
-            font-family: sans-serif;
-            text-align: left;
-        }
+ h2 {
+     font-family: "Raleway", sans-serif, sans-serif;
+ }
 
-        a {
-            color: darkgreen;
-        }
+ h4 {
+     font-family: "Raleway", sans-serif, sans-serif;
+     text-align: left;
+     font-style: italic;
+     text-decoration: underline;
+     font-weight: normal;
+ }
 
-        del {
-            color: grey;
-        }
+ a {
+     color: darkgreen;
+ }
 
-        mark {
-            color: darkblue;
-            background-color: pink;
-        }
+ del {
+     color: grey;
+ }
 
-        pre {
-            font-family: monospace;
-        }
+ mark {
+     color: darkblue;
+     background-color: pink;
+ }
 
-        h3 {
-            color: rgba(0, 0, 139, 0.8);
-        }
+ pre {
+     font-family: monospace;
+ }
 
-        .transparent-text {
-            color: rgba(0, 0, 0, 0.5);
-        }
+ h3 {
+     color: rgba(0, 0, 139, 0.8);
+ }
 
-        body {
-            background-image: url(cross.png);
-            background-color: #DCF5F5;
-            background-repeat: repeat;
-            background-position: top;
-        }
+ .transparent-text {
+     color: rgba(0, 0, 0, 0.5);
+ }
 
-        #content {
-            background-color: white;
-            border-style: solid;
-            border-radius: 8px;
-            border-width: 1px;
-            border-color: darkgrey;
-        }
+ body {
+     background-image: url(cross.png);
+     background-color: #DCF5F5;
+     background-repeat: repeat;
+     background-position: top;
+     font-family: "Noto Serif", sans-serif;
+     display: inline-block;
+ }
 
-        .blue {
-            color: blue;
-        }
+ #content {
+     background-color: white;
+     border-style: solid;
+     border-radius: 8px;
+     border-width: 1px;
+     border-color: darkgrey;
+ }
 
-        .fancy {
-            font-family: cursive;
-        }
+ .blue {
+     color: blue;
+ }
 
-        .red-border {
-            border-style: solid;
-            border-width: 1px;
-            border-color: red;
-        }
+ .fancy {
+     font-family: cursive;
+ }
 
-        hr {
-            border-style: solid;
-            border-color: #CFDFE4;
-        }
+ .red-border {
+     border-style: solid;
+     border-width: 1px;
+     border-color: red;
+ }
 
-        .red-outline {
-            outline-style: solid;
-            outline-width: 1px;
-            outline-color: red;
-        }
-        
+ hr {
+     border-style: solid;
+     border-color: #CFDFE4;
+ }
+
+ .red-outline {
+     outline-style: solid;
+     outline-width: 1px;
+     outline-color: red;
+ }
+
+ blockquote {
+     color: dimgrey;
+     font-family: "Raleway", sans-serif, sans-serif;
+     line-height: 1.5;
+     word-spacing: 0.2em;
+     text-align: justify;
+ }
+
+ i {
+     color: #BFCFD4;
+ }
+ 
