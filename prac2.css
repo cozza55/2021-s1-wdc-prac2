@@ -1,44 +1,78 @@
         p {
             font-family: Serif;
         }
+
         h1 {
             font-family: sans-serif;
         }
+
         h4 {
             font-family: sans-serif;
             text-align: left;
         }
+
         a {
             color: darkgreen;
         }
+
         del {
             color: grey;
         }
+
         mark {
             color: darkblue;
             background-color: pink;
         }
+
         pre {
             font-family: monospace;
         }
+
         h3 {
             color: rgba(0, 0, 139, 0.8);
         }
+
         .transparent-text {
             color: rgba(0, 0, 0, 0.5);
         }
-       body {
+
+        body {
             background-image: url(cross.png);
             background-color: #DCF5F5;
             background-repeat: repeat;
             background-position: top;
         }
+
         #content {
             background-color: white;
+            border-style: solid;
+            border-radius: 8px;
+            border-width: 1px;
+            border-color: darkgrey;
         }
+
         .blue {
             color: blue;
         }
+
         .fancy {
             font-family: cursive;
         }
+
+        .red-border {
+            border-style: solid;
+            border-width: 1px;
+            border-color: red;
+        }
+
+        hr {
+            border-style: solid;
+            border-color: #CFDFE4;
+        }
+
+        .red-outline {
+            outline-style: solid;
+            outline-width: 1px;
+            outline-color: red;
+        }
+        
