@@ -27,8 +27,7 @@
         .transparent-text {
             color: rgba(0, 0, 0, 0.5);
         }
-        .task2-4 {
+       body {
             background-color: #DCF5F5;
             background-image: url(https://myuni.adelaide.edu.au/courses/64700/files/8436901/download?wrap=1);
-            background-repeat: repeat;
         }
